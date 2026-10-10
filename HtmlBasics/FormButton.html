@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Information</title>
+  </head>
+  <body>
+    <button type="submit">Submit</button> 
+    <!-- The above button element does not work for submitting the form as it is outside the form tag -->
+    <form action="/server" >
+      <div>
+        <label for="username">Username : </label>
+        <input type="text" placeholder="Enter username" id="username" />
+      </div>
+      <div>
+        <label for="password">Password : </label>
+        <input type="password" placeholder="Enter Password" id="password" />
+      </div>
+      <div>
+        <label for="age" >Age : </label>
+        <input type="number" placeholder="Age" id="age"/>   
+      </div>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+      <button type="button">Hello</button>
+    </form>
+  </body>
+</html>
