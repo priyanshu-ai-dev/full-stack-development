@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveller Information</title>
+</head>
+<body>
+    <form action="/server" >
+        <div>
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" />
+        </div>
+        <br>
+        <div>
+        <label for="gender">Sex:</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+        </div>
+        <br>
+        <div>
+            <label for="country">Country: </label>
+            <select id="country" name="country" >
+                <option>Select an Option</option>
+                <option value="India">India</option>
+                <option value="Nepal">Nepal</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <div>
+        <br>
+        <label for="message">Message:</label>
+        <br>
+        <textarea id="message" name="message"></textarea>
+        </div>
+        <div>
+        <br>
+        <input type="checkbox" id="subscribe" name="subscribe" />
+        <label for="subscribe">Subscribe?</label>
+        </div>
+        <br>
+        <div>
+        <button type="submit" >Submit</button>
+        <button type="reset" >Reset</button>
+        </div>
+    </form>
+</body>
+</html>
