@@ -9,7 +9,7 @@ h3 {
   background-color: #b92b27;
 }
 div > input {
-  background-color: darksalmon;
+  background-color: rgb(230, 199, 239);
 }
 nav ul li a {
   color: hotpink;
@@ -26,4 +26,13 @@ p + h3 {
 }
 .upvote + button {
   background-color: rgb(10, 215, 242);
+}
+input[type="text"]{
+  color: red;
+}
+input[type="password"]{
+  color: green;
+}
+input[type]{
+  background-color: ghostwhite;
 }
