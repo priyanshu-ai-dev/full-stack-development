@@ -36,3 +36,24 @@ input[type="password"]{
 input[type]{
   background-color: ghostwhite;
 }
+button:hover{
+  background-color: #000000;
+  color: white;
+}
+h3:hover{
+  text-decoration: overline;
+}
+button:active{
+  background-color: lightpink;
+}
+p:active{
+  font-weight: bold;
+  color: green;
+}
+input[type="radio"]:checked + label{
+  color: red;
+  font-weight: bold;
+}
+div:nth-of-type(2n){
+  background-color: blanchedalmond;
+}
