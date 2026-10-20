@@ -5,9 +5,19 @@ h1,
 h3 {
   color: #b92b27;
 }
+div > input {
+  background-color: darksalmon;
+}
+.upvote{
+  color: aliceblue;
+  background-color: green;
+}
 #myid p {
     color: green;
 }
 p + h3 {
   text-decoration: underline;
+}
+.upvote + button {
+  background-color: rgb(10, 215, 242);
 }
