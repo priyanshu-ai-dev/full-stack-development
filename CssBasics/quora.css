@@ -8,3 +8,6 @@ h3 {
 #myid p {
     color: green;
 }
+p + h3 {
+  text-decoration: underline;
+}
