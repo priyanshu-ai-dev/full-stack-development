@@ -5,8 +5,14 @@ h1,
 h3 {
   color: #b92b27;
 }
+#signup{
+  background-color: #b92b27;
+}
 div > input {
   background-color: darksalmon;
+}
+nav ul li a {
+  color: hotpink;
 }
 .upvote{
   color: aliceblue;
